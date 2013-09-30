@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18504D6617E56EBC00CB43D4 /* Brightside.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18504D6517E56EBC00CB43D4 /* Brightside.mp3 */; };
 		18D777FA17E457D700A1C4FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D777F917E457D700A1C4FE /* UIKit.framework */; };
 		18D777FC17E457D700A1C4FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D777FB17E457D700A1C4FE /* Foundation.framework */; };
 		18D777FE17E457D700A1C4FE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D777FD17E457D700A1C4FE /* CoreGraphics.framework */; };
@@ -21,9 +22,14 @@
 		18D7781817E457D800A1C4FE /* Soundscape.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18D7781617E457D800A1C4FE /* Soundscape.xcdatamodeld */; };
 		18D7781B17E457D800A1C4FE /* SCMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D7781A17E457D800A1C4FE /* SCMasterViewController.m */; };
 		18D7781E17E457D800A1C4FE /* SCDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D7781D17E457D800A1C4FE /* SCDetailViewController.m */; };
+		18D7782517E472CC00A1C4FE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D7782417E472CC00A1C4FE /* AVFoundation.framework */; };
+		18D7782917E47A3600A1C4FE /* wolves_timber_wolves_howling.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18D7782617E47A3600A1C4FE /* wolves_timber_wolves_howling.mp3 */; };
+		18D7782A17E47A3600A1C4FE /* frog_chorus_singing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18D7782717E47A3600A1C4FE /* frog_chorus_singing.mp3 */; };
+		18D7782B17E47A3600A1C4FE /* crickets_chirping_at_night.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18D7782817E47A3600A1C4FE /* crickets_chirping_at_night.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18504D6517E56EBC00CB43D4 /* Brightside.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Brightside.mp3; sourceTree = "<group>"; };
 		18D777F617E457D700A1C4FE /* Soundscape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soundscape.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D777F917E457D700A1C4FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		18D777FB17E457D700A1C4FE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -44,6 +50,10 @@
 		18D7781A17E457D800A1C4FE /* SCMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCMasterViewController.m; sourceTree = "<group>"; };
 		18D7781C17E457D800A1C4FE /* SCDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCDetailViewController.h; sourceTree = "<group>"; };
 		18D7781D17E457D800A1C4FE /* SCDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCDetailViewController.m; sourceTree = "<group>"; };
+		18D7782417E472CC00A1C4FE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		18D7782617E47A3600A1C4FE /* wolves_timber_wolves_howling.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wolves_timber_wolves_howling.mp3; sourceTree = "<group>"; };
+		18D7782717E47A3600A1C4FE /* frog_chorus_singing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = frog_chorus_singing.mp3; sourceTree = "<group>"; };
+		18D7782817E47A3600A1C4FE /* crickets_chirping_at_night.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = crickets_chirping_at_night.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18D7782517E472CC00A1C4FE /* AVFoundation.framework in Frameworks */,
 				18D777FA17E457D700A1C4FE /* UIKit.framework in Frameworks */,
 				18D777FC17E457D700A1C4FE /* Foundation.framework in Frameworks */,
 				18D777FE17E457D700A1C4FE /* CoreGraphics.framework in Frameworks */,
@@ -81,6 +92,7 @@
 		18D777F817E457D700A1C4FE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				18D7782417E472CC00A1C4FE /* AVFoundation.framework */,
 				18D777F917E457D700A1C4FE /* UIKit.framework */,
 				18D777FB17E457D700A1C4FE /* Foundation.framework */,
 				18D777FD17E457D700A1C4FE /* CoreGraphics.framework */,
@@ -108,6 +120,10 @@
 		18D7780217E457D700A1C4FE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				18504D6517E56EBC00CB43D4 /* Brightside.mp3 */,
+				18D7782617E47A3600A1C4FE /* wolves_timber_wolves_howling.mp3 */,
+				18D7782717E47A3600A1C4FE /* frog_chorus_singing.mp3 */,
+				18D7782817E47A3600A1C4FE /* crickets_chirping_at_night.mp3 */,
 				18D7780317E457D700A1C4FE /* Soundscape-Info.plist */,
 				18D7780417E457D700A1C4FE /* InfoPlist.strings */,
 				18D7780717E457D700A1C4FE /* main.m */,
@@ -176,6 +192,10 @@
 				18D7781017E457D800A1C4FE /* Default@2x.png in Resources */,
 				18D7781217E457D800A1C4FE /* Default-568h@2x.png in Resources */,
 				18D7781517E457D800A1C4FE /* MainStoryboard.storyboard in Resources */,
+				18D7782917E47A3600A1C4FE /* wolves_timber_wolves_howling.mp3 in Resources */,
+				18D7782A17E47A3600A1C4FE /* frog_chorus_singing.mp3 in Resources */,
+				18D7782B17E47A3600A1C4FE /* crickets_chirping_at_night.mp3 in Resources */,
+				18504D6617E56EBC00CB43D4 /* Brightside.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +335,7 @@
 				18D7782317E457D800A1C4FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

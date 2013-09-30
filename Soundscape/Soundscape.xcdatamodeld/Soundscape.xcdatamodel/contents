@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <entity name="Event">
-        <attribute name="timeStamp" optional="YES" attributeType="Date"/>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2061" systemVersion="11G63b" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Scene" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="sound" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Sound" inverseName="scene" inverseEntity="Sound" syncable="YES"/>
+    </entity>
+    <entity name="Sound" syncable="YES">
+        <attribute name="soundLoop" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="soundMute" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="soundName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="soundSolo" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="soundVol" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="scene" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Scene" inverseName="sound" inverseEntity="Scene" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Event" positionX="261" positionY="189" width="128" height="60"/>
+        <element name="Scene" positionX="160" positionY="192" width="128" height="75"/>
+        <element name="Sound" positionX="403" positionY="204" width="128" height="135"/>
     </elements>
 </model>
